@@ -128,9 +128,9 @@ function gameObject(){
 
 
 function homeTeamName(){
-    let object = gameObject();
+    let game = gameObject();
 
-    return object['home']['teamName']
+    return game['home']['teamName']
 }
 
 function numPointsScored(playerName){
